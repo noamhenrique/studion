@@ -277,10 +277,12 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, auto);
   align-items: center;
+  padding: 5.25rem 0 3.75rem 0;
 }
 
 .footer .logo-studion {
   justify-self: start;
+  margin: 0;
 }
 
 .logo-studion__subtitle {
@@ -288,7 +290,45 @@ ul {
 }
 
 .footer__form {
-  justify-self: center;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 9ch auto;
+  gap: 1.25rem;
+}
+
+.footer__form label {
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer__email {
+  display: grid;
+  grid-template-columns: auto 3.375rem;
+  width: 100%;
+}
+
+.footer__form input {
+  background-color: var(--color-primary);
+  border: unset;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer__form input::placeholder {
+  color: #000;
+}
+
+.footer__form input:focus {
+  outline: unset;
+}
+
+.footer__form button {
+  border: unset;
+  height: 100%;
 }
 
 .footer__social {
