@@ -360,3 +360,15 @@ ul {
 .footer__social a:active .fa-twitter {
   color: #000;
 }
+
+.footer hr {
+  border-color: #fff4;
+  margin: 0;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 2.5rem 0;
+}
